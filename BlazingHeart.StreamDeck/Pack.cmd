@@ -1,1 +1,1 @@
-nuget pack BlazingHeart.StreamDeck.csproj
+nuget pack BlazingHeart.StreamDeck.csproj -Properties Configuration=Release

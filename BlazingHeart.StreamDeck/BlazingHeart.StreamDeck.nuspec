@@ -18,4 +18,8 @@
       <dependency id="HidLibrary" version="3.2" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="bin\Release\BlazingHeart.StreamDeck.dll" target="lib\net452" />
+    <file src="bin\Release\BlazingHeart.StreamDeck.pdb" target="lib\net452" />
+  </files>
 </package>
