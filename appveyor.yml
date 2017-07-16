@@ -18,7 +18,7 @@ before_deploy:
 - cmd: >-
     cd BlazingHeart.StreamDeck
 
-    nuget pack BlazingHeart.StreamDeck.csproj -Prop Configuration=Release
+    nuget pack BlazingHeart.StreamDeck.csproj -properties Configuration=Release
 deploy:
 - provider: NuGet
   api_key:
