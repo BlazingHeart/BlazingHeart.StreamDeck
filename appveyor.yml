@@ -1,0 +1,23 @@
+version: 0.1.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: Any CPU
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+build:
+  project: BlazingHeart.StreamDeck.sln
+  verbosity: minimal
+before_deploy:
+- cmd: >-
+    cd BlazingHeart.StreamDeck
+
+    nuget pack BlazingHeart.StreamDeck.csproj -Prop Configuration=Release
+deploy:
+- provider: NuGet
+  api_key:
+    secure: /NRB2lt3A1Ai8DmQnkFhxB6qEv6D5NFU/56U8ZmAia3sF+Dfzl6m9k6PrION4zXZ
+  artifact: BlazingHeart.StreamDeck\*.nupkg
