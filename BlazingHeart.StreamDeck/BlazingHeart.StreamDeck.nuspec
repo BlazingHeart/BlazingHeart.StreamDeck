@@ -7,8 +7,8 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.txt</licenseUrl>
-    <!--<projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <projectUrl>https://github.com/BlazingHeart/BlazingHeart.StreamDeck</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <!--<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>-->
